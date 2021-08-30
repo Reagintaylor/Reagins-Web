@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <header>
+    <head>
         <title>Reagin's Web</title>
         <html metacharset ></html>
-        <link rel="stylesheet" href="../Reagins-web/assets/style.css" >
-    </header>
+        <link rel="stylesheet" href="../Reagins-web/assets/css/reset.css" >
+        <link rel="stylesheet" href="../Reagins-web/assets/css/style.css" >
+    </head>
 
     <body>
-        <head>
-            <span><a href="#">Home</a></span>
-            <span><a href="#">Resume</a></span>
-            <span><a href="#">About Me</a></span>
-            <span><a href="#">My Intentions</a></span>
-        </head>
+        <header> <!--Set title to left w flexbox-->
+            <nav>
+                <span id="title"><h1>Reagin's Web</h1></span>
+                <!--Set this items right-->
+                <span class="header-items"><a href="#">Home</a></span>
+                <span class="header-items"><a href="#">Resume</a></span>
+                <span class="header-items"><a href="#">About Me</a></span>
+                <span class="header-items"><a href="#">My Intentions</a></span>
+            </nav>
+        </header>
+    
         <section>
-            <img src="#" alt=""/>
-
+            <!--Try making the images the links-->
+            <h2>First Project Name</h2>
+            <a><img src="#" alt="Real image"/></a>
             <details>
 
             </details>
         </section>
         <section>
-            <img src="#" alt=""/>
+            <h2>Second Project Name</h2>
+            <img src="#" alt="Placeholder image"/>
             <details>
 
             </details>
         </section>
         <section>
-            <img src="#" alt=""/>
+            <h2>Third Project Name</h2>
+            <img src="#" alt="Placeholder image"/>
             <details>
 
             </details>
         </section>
     </body>
 
+    <!--Set all the way to the bottom-->
     <footer>
         <p><a href="#">Contact Info</a></p>
     </footer>

@@ -1,0 +1,18 @@
+* {
+    margin: 5px;
+    background-color: #98ff98
+}
+
+header {  
+    background-color: gray
+    
+}
+
+#title {
+    font-display: left;
+}
+
+.header-items {
+    font-style: oblique;
+    font-display: right;
+}
