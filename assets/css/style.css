@@ -1,8 +1,21 @@
-* {
-    margin: 5px;
-    background-color: #98ff98
+:root {
+    --light: #c1ffe5;
+    --midtone: 
+    --dark: 
 }
 
+* {
+    margin: 5px;
+    padding: 25 px;
+    background-color: var(--light)
+    font-color: grey
+}
+
+
+
+section {
+    box-sizing: border-box;
+}
 header {  
     background-color: gray
     
@@ -15,4 +28,6 @@ header {
 .header-items {
     font-style: oblique;
     font-display: right;
+    display: right;
+    color: black;
 }
