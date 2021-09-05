@@ -1,23 +1,52 @@
 :root {
     --light: #c1ffe5;
-    --midtone: 
-    --dark: 
+    --midtone: grey;
+    --dark: black;
 }
 
 * {
     margin: 5px;
-    padding: 25 px;
-    background-color: var(--light)
-    font-color: grey
+    border: 25px;
+    padding: 5px;
+    background-color: var(--light);
+    color: grey;
 }
 
+input {
+    cursor: text;
+}
 
+button:hover {
+    text-decoration: underline;
+} 
 
 section {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header {  
-    background-color: gray
+    background-color: gray;  
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(white, grey);
+    position: fixed;
+    
+}
+
+/* Change height and width*/
+nav img {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+
+}
+footer {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px;
     
 }
 
@@ -27,7 +56,46 @@ header {
 
 .header-items {
     font-style: oblique;
-    font-display: right;
+    justify-content: end;
     display: right;
-    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* make the projects get in a box */ 
+.projects {
+    box-sizing: border-box;
+    border: 5px;
+    border-color: grey;
+
+}
+
+input, textarea, label, button {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header-items a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#first {
+    margin-top: 225px;
+}
+ 
+#comment {
+    background: white;
+    
+}
+/* make the screen sizing accesible for mobile use */
+@media screen and (max-width: 206px) {
+    display: flex-wrap;
+    
 }
