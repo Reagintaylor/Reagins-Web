@@ -1,12 +1,11 @@
 :root {
     --light: #c1ffe5;
-    --midtone: grey;
+    --med: grey;
     --dark: black;
 }
 
 * {
     margin: 5px;
-    border: 25px;
     padding: 5px;
     background-color: var(--light);
     color: grey;
@@ -31,22 +30,16 @@ header {
     display: flex;
     justify-content: center;
     background-image: linear-gradient(white, grey);
-    position: fixed; 
-}
-
-/* style the header with flex box if need be */
-nav {
-    
+    position: fixed;
 }
 
 /* Change height and width*/
-nav img {
-    width: 50px;
-    height: 50px;
+nav div{
+    font-size: 55px;
     padding: 0px;
     margin: 0px;
-
 }
+
 footer {
     display: flex;
     align-items: flex-end;
@@ -56,6 +49,9 @@ footer {
 
 #title {
     font-display: left;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header-items {
@@ -67,11 +63,23 @@ footer {
     text-decoration: none;
 }
 /* make the projects get in a box */ 
-.projects {
-    box-sizing: border-box;
-    border: 5px;
-    border-color: grey;
+.projects, #about-me {
+    border-bottom: dashed;
+}
+ .bold {
+     font-weight: bold;
+ }
 
+.content {
+    text-align: center;
+}
+
+.content h1{
+    font-size: 25px;
+}
+
+.empty{
+    padding: 100px;
 }
 
 input, textarea, label, button {
@@ -83,23 +91,25 @@ input, textarea, label, button {
     text-decoration: underline;
 }
 
-.footer-links {
+footer {
     font-size: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-top: solid var(--med) 2px;
 }
 
 #first-project {
-    margin-top: 225px;
+    border-top: solid;
 }
  
 #comment {
     background: white;
     
 }
+
 /* make the screen sizing accesible for mobile use */
 @media screen and (max-width: 206px) {
-    display: flex-wrap;
+    
     
 }
