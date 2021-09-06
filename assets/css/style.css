@@ -31,7 +31,11 @@ header {
     display: flex;
     justify-content: center;
     background-image: linear-gradient(white, grey);
-    position: fixed;
+    position: fixed; 
+}
+
+/* style the header with flex box if need be */
+nav {
     
 }
 
@@ -86,7 +90,7 @@ input, textarea, label, button {
     justify-content: space-around;
 }
 
-#first {
+#first-project {
     margin-top: 225px;
 }
  
