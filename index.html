@@ -12,13 +12,13 @@
         <header> <!--Set title to left w flexbox-->
             <nav>
                 <div>🕸</div>
-                <span id="title" id="home"><h1>Reagin's Web</h1></span>
+                <div id="title" id="home"><h1>Reagin's Web</h1></div>
                 <!--Set this items right-->
                 <span><a class="header-items" href="#">Home</a></span>
                 <span><a class="header-items" href="#">About Me</a></span>
-                <span><a class="header-items" href="#">My Intentions</a></span>
-                <span><a class="header-items" href="#">Projects</a></span>
-                <span><a class="header-items" href="#">Contact Info</a></span>
+                <span><a class="header-items" href="#my-intentions">My Intentions</a></span>
+                <span><a class="header-items" href="#projects">Projects</a></span>
+                <span><a class="header-items" href="#contact-info">Contact Info</a></span>
             </nav>
         </header>
 
@@ -31,9 +31,11 @@
                 a company who values a good work-life balance. Currently, I live
                 in Atlanta, GA and I teach kindergarten. My hobbies include:</p> 
                 <ul>
+                    <li class="list" id="my-intentions"></li>
                     <li class="list">✨Playing the harp</li>
                     <li class="list">🖼Painting</li>
                     <li class="list">🌱Gardening</li>
+                    <li class="list" id="projects"></li>
                 </ul>
                 <p class="bold">I'm so excited to show you my work! (Navigate to "Projects" to take a look)</p>
             </article>
@@ -50,7 +52,7 @@
         </section>
     
         <section class="projects" id="first-project">
-            <!--Try making the images the links-->
+            <!--Make the images the links-->
             <h2>Projects</h2>
             <h2>🕷Accesible Horiseon Website</h2>
             <h4 class="date">August 28th, 2021</h4>
@@ -83,7 +85,7 @@
     
 
         <form>
-            <h1><a href="#">Contact Info</a></h1>
+            <h1 id="contact-info">Contact Info</h1>
             <p>
                 <label  for="name">Name:</label>
                 <input id="name" type="text" placeholder="First Last" />

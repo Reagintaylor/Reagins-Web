@@ -57,6 +57,12 @@ nav div{
     text-decoration: none;
 }
 
+    /*Content*/
+
+#about-me {
+    margin-top: 215px;
+}
+
 .list {
     list-style: none;
 }
@@ -73,10 +79,11 @@ nav div{
     font-size: 25px;
 }
 
+    /*Project section*/
+    
 .date {
     font-weight: normal;
 }
-
 .photo {
     height: 250px;
     width: 250px;
@@ -86,11 +93,20 @@ nav div{
     height: auto;
 }
 
+#first-project {
+    border-top: solid;
+}
+
 .project-images {
     height: 300px;
     weight: 250px;
 }
 
+.projects, #about-me {
+    border-bottom: dashed;
+}
+
+        /*Footer */
 .footer-links {
     text-decoration: none;
 }
@@ -104,16 +120,7 @@ footer .copyright{
     display: block;
 }
 
-
-/* make the projects get in a box */ 
-.projects, #about-me {
-    border-bottom: dashed;
-}
-
-
-#about-me {
-    margin-top: 215px;
-}
+/* Contact Form section*/
 
 input, textarea, label, button {
     background-color: var(--lite);
@@ -132,16 +139,14 @@ button:hover {
 .header-items:hover {
     text-decoration: underline;
 }
-
-#first-project {
-    border-top: solid;
-}
  
 #comment {
     background: var(--lite);
-    
+    height: auto;
+    width: 100%;
 }
 
+/*Responsiveness*/
 /* make the screen sizing accesible for mobile use */
 @media screen and (max-width: 206px) {
     
