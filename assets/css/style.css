@@ -12,25 +12,6 @@
     color: var(--med);
 }
 
-input {
-    cursor: text;
-}
-
-button:hover {
-    text-decoration: underline;
-} 
-
-section {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.list {
-    list-style: none;
-}
-
 header {  
     background-color: var(--med);  
     display: flex;
@@ -39,20 +20,13 @@ header {
     position: fixed;
 }
 
-nav div{
-    font-size: 55px;
-    padding: 0px;
-    margin: 0px;
+section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.date {
-    font-weight: normal;
-}
-
-.project-images {
-    height: 300px;
-    weight: 250px;
-}
 footer {
     padding: 0px;
     justify-content: space-around;
@@ -62,24 +36,45 @@ footer {
     border-top: solid var(--med) 2px;
 }
 
-.footer-links {
-    text-decoration: none;
-}
-
-/* Footer underline won't disapper*/
-.footer-links:hover {
-    text-decoration: underline;
-}
-
-footer .copyright{
-    display: block;
-}
-
 #title {
     font-display: left;
     font-size: 20px;
     margin: 0px;
     padding: 0px;
+}
+
+nav div{
+    font-size: 55px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-items {
+    font-style: oblique;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1{
+    font-size: 25px;
+}
+
+.date {
+    font-weight: normal;
 }
 
 .photo {
@@ -91,28 +86,30 @@ footer .copyright{
     height: auto;
 }
 
-.header-items {
-    font-style: oblique;
-    justify-content: space-around;
-    font-size: 30px;
-    font-weight: bold;
+.project-images {
+    height: 300px;
+    weight: 250px;
+}
+
+.footer-links {
     text-decoration: none;
 }
+
+/* Footer underline won't disapper*/
+.footer-links:hover {
+    text-decoration: underline;
+}
+/* doesn't work*/
+footer .copyright{
+    display: block;
+}
+
+
 /* make the projects get in a box */ 
 .projects, #about-me {
     border-bottom: dashed;
 }
- .bold {
-     font-weight: bold;
- }
 
-.content {
-    text-align: center;
-}
-
-.content h1{
-    font-size: 25px;
-}
 
 #about-me {
     margin-top: 215px;
@@ -123,6 +120,14 @@ input, textarea, label, button {
     border: inset;
     border-radius: 5px;
 }
+
+input {
+    cursor: text;
+} 
+
+button:hover {
+    text-decoration: underline;
+} 
 
 .header-items:hover {
     text-decoration: underline;
