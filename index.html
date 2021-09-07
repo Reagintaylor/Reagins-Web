@@ -11,7 +11,6 @@
     <body>
         <header> <!--Set title to left w flexbox-->
             <nav>
-                <!-- find better image for header, preferably png-->
                 <div>🕸</div>
                 <span id="title" id="home"><h1>Reagin's Web</h1></span>
                 <!--Set this items right-->
@@ -19,20 +18,22 @@
                 <span><a class="header-items" href="#">About Me</a></span>
                 <span><a class="header-items" href="#">My Intentions</a></span>
                 <span><a class="header-items" href="#">Projects</a></span>
+                <span><a class="header-items" href="#">Contact Info</a></span>
             </nav>
         </header>
 
         <section>
             <article class="content" id="about-me">
                 <h1>🕷About Me</h1>
+                <span><img  class="photo" src="./assets/images/Screen Shot 2021-09-07 at 11.00.12 AM.png" alt="photo of Reagin Turner illuminated by a red and blue light"/></span>
                 <p>Welcome to my page! My name is Reagin Turner and I am an 
                 aspiring software engineer. My dream job would be to work for
                 a company who values a good work-life balance. Currently, I live
                 in Atlanta, GA and I teach kindergarten. My hobbies include:</p> 
                 <ul>
-                    <li>playing the harp</li>
-                    <li>painting</li>
-                    <li>gardening</li>
+                    <li class="list">playing the harp</li>
+                    <li class="list">painting</li>
+                    <li class="list">gardening</li>
                 </ul>
                 <p class="bold">I'm so excited to show you my work! (Navigate to "Projects" to take a look)</p>
             </article>
@@ -84,7 +85,7 @@
             </p>
             <p>
                 <label for="comment">Comment:</label>
-                <textarea id="comment" ></textarea>
+                <textarea id="comment">What else would you like to know about me?</textarea>
             </p>
             <p>
                 <input class="checkbox" id="agreement" type="checkbox" />
@@ -100,7 +101,8 @@
     <footer>
         <span class="footer-links"><a href="https://www.linkedin.com/in/reagin-turner-01068b16b/" target="_blank">LinkedIn</a></span>
         <span class="footer-links"><a href="https://github.com/Reagintaylor" target="_blank">GitHub</a></span>
-        <span class="footer-links"><a href="https://rturnerafteragnes@gmail.com" target="_blank">Email</a></span>
+        <span class="footer-links"><a href="mailto:rturnerafteragnes@gmail.com" target="_blank">Email</a></span>
+        <div class=" copyright">Copyright 2021</div>
     </footer>
 
 </html>

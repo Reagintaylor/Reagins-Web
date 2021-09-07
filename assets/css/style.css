@@ -2,13 +2,14 @@
     --light: #c1ffe5;
     --med: grey;
     --dark: black;
+    --lite: white;
 }
 
 * {
     margin: 5px;
     padding: 5px;
     background-color: var(--light);
-    color: grey;
+    color: var(--med);
 }
 
 input {
@@ -25,15 +26,19 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+.list {
+    list-style: none;
+}
+
 header {  
-    background-color: gray;  
+    background-color: var(--med);  
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(white, grey);
+    background-image: linear-gradient(var(--lite), var(--med));
     position: fixed;
 }
 
-/* Change height and width*/
 nav div{
     font-size: 55px;
     padding: 0px;
@@ -41,10 +46,25 @@ nav div{
 }
 
 footer {
+    padding: 0px;
+    justify-content: space-around;
     display: flex;
     align-items: flex-end;
-    padding: 0px;
-    
+    font-size: 20px;
+    border-top: solid var(--med) 2px;
+}
+
+.footer-links {
+    text-decoration: none;
+}
+
+/* Footer underline won't disapper*/
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+footer .copyright{
+    display: block;
 }
 
 #title {
@@ -54,10 +74,18 @@ footer {
     padding: 0px;
 }
 
+.photo {
+    height: 250px;
+    width: 250px;
+    border:inset;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
 .header-items {
     font-style: oblique;
-    justify-content: end;
-    display: right;
+    justify-content: space-around;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
@@ -83,20 +111,13 @@ footer {
 }
 
 input, textarea, label, button {
-    background-color: white;
+    background-color: var(--lite);
+    border: inset;
     border-radius: 5px;
 }
 
-.header-items a:hover {
+.header-items:hover {
     text-decoration: underline;
-}
-
-footer {
-    font-size: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-top: solid var(--med) 2px;
 }
 
 #first-project {
@@ -104,7 +125,7 @@ footer {
 }
  
 #comment {
-    background: white;
+    background: var(--lite);
     
 }
 
