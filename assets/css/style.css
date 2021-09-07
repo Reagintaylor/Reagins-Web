@@ -45,6 +45,14 @@ nav div{
     margin: 0px;
 }
 
+.date {
+    font-weight: normal;
+}
+
+.project-images {
+    height: 300px;
+    weight: 250px;
+}
 footer {
     padding: 0px;
     justify-content: space-around;
