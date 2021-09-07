@@ -78,8 +78,8 @@ footer {
     font-size: 25px;
 }
 
-.empty{
-    padding: 100px;
+#about-me {
+    margin-top: 215px;
 }
 
 input, textarea, label, button {
