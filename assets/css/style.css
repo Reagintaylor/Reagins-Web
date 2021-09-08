@@ -84,6 +84,7 @@ nav div{
 .date {
     font-weight: normal;
 }
+
 .photo {
     height: 250px;
     width: 250px;
@@ -149,7 +150,21 @@ button:hover {
 /*Responsiveness*/
 /* make the screen sizing accesible for mobile use */
 @media screen and (max-width: 770px) {
+    .photo {
+        height: 30vw;
+    }
     
-    
-    
+    .project-images {
+        height: 40vw;
+    }
+
+    #about-me {
+        margin-top: 250px;
+    }
+
+    form p label {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 }
