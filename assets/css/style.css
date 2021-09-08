@@ -148,7 +148,8 @@ button:hover {
 
 /*Responsiveness*/
 /* make the screen sizing accesible for mobile use */
-@media screen and (max-width: 206px) {
+@media screen and (max-width: 770px) {
+    
     
     
 }
