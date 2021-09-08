@@ -127,6 +127,7 @@ input, textarea, label, button {
     background-color: var(--lite);
     border: inset;
     border-radius: 5px;
+    font-size: 15px;
 }
 
 input {
@@ -165,6 +166,7 @@ button:hover {
     form p label {
         display: flex;
         flex-wrap: wrap;
+        font-size: 15px;
     }
 
     * {

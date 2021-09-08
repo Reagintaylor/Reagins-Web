@@ -23,3 +23,11 @@
 ## Credits
 - Special thank you to [Kelsey Perkins](https://github.com/kperkins97/) for helping me with the name of my site and with the beginning stages of mapping out the format of the site.
 - I received help from my tutor Dennis Pavyluk also. 
+
+## License
+- GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
