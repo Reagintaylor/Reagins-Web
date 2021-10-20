@@ -151,6 +151,11 @@ button:hover {
     width: 100%;
 }
 
+#messsage {
+    font-size: 40px;
+
+}
+
 /*Responsiveness*/
 /* make the screen sizing accesible for mobile use */
 @media screen and (max-width: 770px) {
