@@ -34,6 +34,7 @@ footer {
     align-items: flex-end;
     font-size: 20px;
     border-top: solid var(--med) 2px;
+    text-decoration: none;
 }
 
 #title {
@@ -60,7 +61,7 @@ nav div{
     /*Content*/
 
 #about-me {
-    margin-top: 215px;
+    margin-top: 245px;
 }
 
 .list {
@@ -114,6 +115,8 @@ nav div{
         /*Footer */
 .footer-links {
     text-decoration: none;
+    border: 2px solid var(--med);
+    border-radius: 5px;
 }
 
 /* Footer underline won't disapper*/
@@ -196,5 +199,9 @@ button:hover {
 
     form p label, button, textarea {
         color: var(--med);
+    }
+
+    #about-me {
+        margin-top: 275px;
     }
 }
